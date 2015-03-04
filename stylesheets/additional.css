@@ -44,3 +44,18 @@
   border: none;
   box-shadow: none;
 }
+
+/*for FAQ page*/
+
+#main_content_wrap li {
+    line-height: 1.8;
+}
+
+#main_content_wrap pre {
+    width: 95%;
+    margin: 10px 0;
+}
+
+h5 {
+    font-weight: normal;
+}

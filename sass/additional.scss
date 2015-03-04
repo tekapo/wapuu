@@ -9,18 +9,18 @@
 }
 
 .faq-english {
-  display: block;
-  position: absolute;
-  top: 0;
-  z-index: 10;
-  color: #fff;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-  padding: 10px 20px;
-  background-image: none;
-  background-color: #00dd90;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 10px 20px;
+    background-image: none;
+    background-color: #00dd90;
 }
 
 .inner {
@@ -30,9 +30,9 @@
 #main_content {
     width: 100%;
     overflow: auto;
-        .wapuu-each:nth-child(even){
+    .wapuu-each:nth-child(even){
         float: right;
-        }
+    }
 
 }
 
@@ -44,4 +44,16 @@
         border: none;
         box-shadow: none;
     }
+}
+
+/*for FAQ page*/
+
+#main_content_wrap { 
+    li {
+        line-height: 1.8;
+    }
+}
+
+h5 {
+    font-weight: normal;
 }
