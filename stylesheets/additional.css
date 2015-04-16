@@ -15,7 +15,7 @@
   z-index: 10;
   color: #fff;
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   padding: 10px 20px;
@@ -44,3 +44,11 @@
   border: none;
   box-shadow: none;
 }
+.wapuu-each .wapuu-name-author dt {
+  font-weight: normal;
+}
+.wapuu-each .wapuu-name-author dd {
+  font-style: normal;
+}
+
+/*# sourceMappingURL=additional.css.map */
